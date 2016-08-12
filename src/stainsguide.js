@@ -1,0 +1,21 @@
+module.exports = {
+	"chocolate" : "",
+	"wine" : "",
+	"blood" : "",
+	"deodorant" : "",
+	"antiperspirant" : "",
+	"coffee" : "",
+	"grass" : "",
+	"juice" : "",
+	"ink" : "",
+	"lipstick" : "",
+	"sauce" : "",
+	"mustard" : "",
+	"ketchup" : "",
+	"toothpaste" : "",
+	"oil" : "",
+	"grease" : "",
+	"gum" : "",
+	"chewing gum" : "",
+
+};
