@@ -1,0 +1,38 @@
+{
+  "intents": [
+    {
+      "intent": "HowToIntent",
+      "slots": [
+      {
+        "name" : "Item",
+        "type": "LIST_OF_ITEMS"
+      }
+     ]
+    },
+    {
+      "intent": "TipIntent"
+    },
+    {
+      "intent": "StainIntent",
+      "slots": [
+      {
+        "name" : "Stain",
+        "type": "LIST_OF_STAINS"
+      },
+      {
+        "name" : "Item",
+        "type" : "LIST_OF_ITEMS"
+      }
+      ]
+    },
+   {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

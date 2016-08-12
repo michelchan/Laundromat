@@ -1,0 +1,32 @@
+HowToIntent how do I wash {Item}
+HowToIntent how do I wash a {Item}
+HowToIntent how do I wash an {Item}
+HowToIntent how do I wash the {Item}
+HowToIntent how do you wash {Item}
+HowToIntent how do you wash a {Item}
+HowToIntent how do you wash an {Item}
+HowToIntent how do you wash the {Item}
+HowToIntent how do I clean {Item}
+HowToIntent how do I clean a {Item}
+HowToIntent how do I clean an {Item}
+HowToIntent how do I clean the {Item}
+HowToIntent how do you clean {Item}
+HowToIntent how do you clean a {Item}
+HowToIntent how do you clean an {Item}
+HowToIntent how do you clean the {Item}
+HowToIntent how to clean {Item}
+HowToIntent how to wash {Item}
+HowToIntent how to launder {Item}
+HowToIntent how do I launder {Item}
+HowToIntent how do you launder {Item}
+
+StainIntent how do you remove {Stains}
+StainIntent how do you clean {Stains}
+StainIntent how do you remove {Stains}
+StainIntent how do you clean {Stains}
+StainIntent how do you get rid of {Stains}
+StainIntent to remove {Stains}
+StainIntent how to remove {Stains}
+StainIntent how to clean off {Stains}
+StainIntent how to wash off {Stains}
+StainIntent how to get rid of {Stains}

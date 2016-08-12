@@ -1,0 +1,100 @@
+shirt
+shirts
+button-down shirt
+button-down shirts
+sweater
+sweaters
+socks
+sock
+jeans
+hat
+hats
+newspaper hat
+newsboy hat
+baseball cap
+baseball hat
+gloves
+down coat
+polyester coat
+down coats
+polyester coats
+coats
+underwear
+bras
+lingerie
+baby clothes
+baby clothing
+swimsuits
+swimsuit
+shapewear
+curtains
+curtain
+blankets
+blanket
+rugs
+rug
+tablecloth
+tablecloths
+napkins
+napkin
+slipcovers
+slipcover
+cushion cover
+cushion covers
+sheets
+sheet
+bedsheet
+bedsheets
+bed sheet
+bed sheets
+backpack
+backpacks
+bookbag
+bookbags
+purse
+purses
+tote bag
+tote bags
+laptop case
+laptop cases
+ipod case
+ipod cases
+ironing board cover
+ironing board covers
+sleeping bag
+sleeping bags
+car seat
+car seats
+high chair cover
+high chair covers
+footwear
+shoes
+shoe
+oven mitt
+oven mitts
+sponge
+sponges
+cloth diapers
+cloth diaper
+travel pillow
+travel pillows
+bath toys
+bath toy
+pet bed cover
+pet bed covers
+pet bed
+dog bed
+cat bed
+collar
+collars
+leash
+leashes
+dish gloves
+sports gear
+jersey
+basketball nets
+shin guard
+shin guards
+mop head
+mop heads
+toys
