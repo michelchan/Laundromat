@@ -1,5 +1,6 @@
 chocolate
 wine
+red wine
 blood
 deodorant
 antiperspirant
@@ -16,3 +17,7 @@ oil
 grease
 gum
 chewing gum
+glue
+goo
+sweat
+sweat stain

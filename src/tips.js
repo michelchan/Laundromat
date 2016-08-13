@@ -12,4 +12,5 @@ module.exports = {
 	"Turn clothes inside out before washing.",
 	"Zip up zippers to prevent damage to the zipper and other clothing",
 	"Separate clothes by into different hampers for an easier laundry day. For example, one for colors and one for whites",
+	"Always check if stain is gone before putting in dryer"
 };
