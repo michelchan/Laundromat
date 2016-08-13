@@ -87,6 +87,42 @@ LaundryHelper.prototype.intentHandlers = {
         }
     },
 
+    "StainIntent": function (intent, session, response) {
+        var stainSlot = intent.slots.Stain,
+            stainName;
+        if (stainSlot && stainSlot.value) {
+            stainName = stainSlot.value.toLowerCase();
+        }
+
+        var cardTitle = "How to remove " + stainName,
+            howto = stainsguide[stainName],
+            speechOutput,
+            repromptOutput;
+        if (howto) {
+            speechOutput = {
+                speech: howto,
+                type: AlexaSkill.speechOutputType.PLAIN_TEXT
+            };
+            response.tellWithCard(speechOutput, cardTitle, howto);
+        } else {
+            var speech;
+            if (stainName) {
+                speech = "I'm sorry, I currently do not know how to remove " + stainName + ". What else can I help with?";
+            } else {
+                speech = "I'm sorry, I currently do not know what that is. What else can I help with?";
+            }
+            speechOutput = {
+                speech: speech,
+                type: AlexaSkill.speechOutputType.PLAIN_TEXT
+            };
+            repromptOutput = {
+                speech: "What else can I help with?",
+                type: AleaxSkill.speechOutputType.PLAIN_TEXT
+            };
+            response.ask(speechOutput, repromptOutput);
+        }
+    },
+
     "TipIntent": function (intent, session, response) {
         var TipIndex = Math.floor(Math.random() * tips.length);
         var cardTitle = "Cleaning Tip",

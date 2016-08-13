@@ -20,13 +20,13 @@ HowToIntent how to launder {Item}
 HowToIntent how do I launder {Item}
 HowToIntent how do you launder {Item}
 
-StainIntent how do you remove {Stains}
-StainIntent how do you clean {Stains}
-StainIntent how do you remove {Stains}
-StainIntent how do you clean {Stains}
-StainIntent how do you get rid of {Stains}
-StainIntent to remove {Stains}
-StainIntent how to remove {Stains}
-StainIntent how to clean off {Stains}
-StainIntent how to wash off {Stains}
-StainIntent how to get rid of {Stains}
+StainIntent how do you remove {Stain}
+StainIntent how do you clean {Stain}
+StainIntent how do you remove {Stain}
+StainIntent how do you clean {Stain}
+StainIntent how do you get rid of {Stain}
+StainIntent to remove {Stain}
+StainIntent how to remove {Stain}
+StainIntent how to clean off {Stain}
+StainIntent how to wash off {Stain}
+StainIntent how to get rid of {Stain}

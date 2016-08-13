@@ -18,10 +18,6 @@
       {
         "name" : "Stain",
         "type": "LIST_OF_STAINS"
-      },
-      {
-        "name" : "Item",
-        "type" : "LIST_OF_ITEMS"
       }
       ]
     },
