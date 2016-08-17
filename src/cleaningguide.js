@@ -25,7 +25,7 @@ module.exports = {
     "polyester coats": "Wash in warm water on the gentle cycle in a front loading machine. If you have a top loader, take your coat to the dry cleaners.",
     "coats": "Wash in warm water on the gentle cycle in a front loading machine. If you have a top loader, take your coat to the dry cleaners.",
     "underwear": "Put into zippered mesh bags to to protect delicates. Wash in gentle cycle. Don't use dryer.",
-    "bras": "Put into zippered mesh bags to to protect delicates. Wash in gentle cycle. Don't use dryer.",,
+    "bras": "Put into zippered mesh bags to to protect delicates. Wash in gentle cycle. Don't use dryer.",
     "lingerie": "Hand wash. Soak for a few minutes in warm or cool water. Gently squeeze suds through the fabric and dry using a towel before hang drying.",
     "baby clothes": "Use an extremely mild detergent at first. When the baby starts eating solid foods, switch to a stain fighting detergent. Use warm water and tumble dry on low",
     "baby clothing": "Use an extremely mild detergent at first. When the baby starts eating solid foods, switch to a stain fighting detergent. Use warm water and tumble dry on low",

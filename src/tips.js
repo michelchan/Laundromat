@@ -1,6 +1,5 @@
 /* All information was found through Google. I used various sites such as Reddit and Good House Keeping, as well as personal knowledge. */
-
-module.exports = {
+tips = [
 	"Pretreat stains to keep them from setting.",
 	"Hang up clothes immediately after dryingto prevent wrinkles",
 	"Whites in warm, colors on cold.",
@@ -13,4 +12,4 @@ module.exports = {
 	"Zip up zippers to prevent damage to the zipper and other clothing",
 	"Separate clothes by into different hampers for an easier laundry day. For example, one for colors and one for whites",
 	"Always check if stain is gone before putting in dryer"
-};
+];

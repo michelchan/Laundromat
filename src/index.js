@@ -21,10 +21,24 @@
 
 'use strict';
 
-var AlexaSkill = require('./AlexaSkill'),
-    guide = require('./cleaningguide');
-    tips = require('./tips');
-    stains = require('./stainsguide');
+var AlexaSkill = require('./AlexaSkill');
+var guide = require('./cleaningguide');
+var stainsguide = require('./stainsguide');
+
+var tips = [
+    "Pretreat stains to keep them from setting.",
+    "Hang up clothes immediately after dryingto prevent wrinkles",
+    "Whites in warm, colors on cold.",
+    "Don't overload the washer and dryer",
+    "Clean the lint trap after every dryer load.",
+    "Hang dry clothes that you are afriad of shrinking",
+    "Consider a lingerie bag if you don't want to hand wash bras",
+    "Don't forget to check pockets",
+    "Turn clothes inside out before washing.",
+    "Zip up zippers to prevent damage to the zipper and other clothing",
+    "Separate clothes by into different hampers for an easier laundry day. For example, one for colors and one for whites",
+    "Always check if stain is gone before putting in dryer"
+];
 
 var APP_ID = undefined; //replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
 
@@ -43,7 +57,7 @@ LaundryHelper.prototype = Object.create(AlexaSkill.prototype);
 LaundryHelper.prototype.constructor = LaundryHelper;
 
 LaundryHelper.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
-    var speechText = "Welcome to the Laundromat. You can ask a question like, how do you wash jeans? ... Now, what can I help you with.";
+    var speechText = "Welcome to Laundry Buddy. You can ask a question like, how do you wash jeans? ... Now, what can I help you with.";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
     var repromptText = "For instructions on what you can say, please say help me.";
@@ -124,19 +138,7 @@ LaundryHelper.prototype.intentHandlers = {
     },
 
     "TipIntent": function (intent, session, response) {
-        var TipIndex = Math.floor(Math.random() * tips.length);
-        var cardTitle = "Cleaning Tip",
-        tip = tips[TipIndex],
-        speechOutput,
-        repromptOutput;
-
-        if (tip) {
-            speechOutput = {
-                speech: tip,
-                type: AlexaSkill.speechOutputType.PLAIN_TEXT
-            };
-            response.tellWithCard(speechOutput, cardTitle, tip);
-        }
+        handleNewTipRequest(response);
     },
 
     "AMAZON.StopIntent": function (intent, session, response) {
@@ -162,6 +164,17 @@ LaundryHelper.prototype.intentHandlers = {
         };
         response.ask(speechOutput, repromptOutput);
     }
+};
+
+function handleNewTipRequest(response) {
+    // Get a random space Tip from the space Tips list
+    var TipIndex = Math.floor(Math.random() * tips.length);
+    var randomTip = tips[TipIndex];
+
+    // Create speech output
+    var speechOutput = randomTip;
+    var cardTitle = "Your Tip";
+    response.tellWithCard(speechOutput, cardTitle, speechOutput);
 };
 
 exports.handler = function (event, context) {

@@ -22,7 +22,7 @@ module.exports = {
 	"grease" :  "Cover stain with an absorbent powder, like baking soda or salt, and allow it to sit. Brush powder but don't rub. You can also apply dishwashing soap and then wash it.",
 	"gum" : "Freeze the garment in the freezer if possible. If not, put some ice cubes in a plastic bag and place it where the gum is. When hardened, remove the gum",
 	"chewing gum" : "Freeze the garment in the freezer if possible. If not, put some ice cubes in a plastic bag and place it where the gum is. When hardened, remove the gum",
-	"glue": "For water-based glues, use dish washing liquid and water. Otherwise, use a product specifically for removing goo."
+	"glue": "For water-based glues, use dish washing liquid and water. Otherwise, use a product specifically for removing goo.",
 	"goo": "Use a product specifically for removing goo.",
 	"sweat": "Use a prewash stain remover as directed. Wash item in hottest water recommended for the fabric using an enzyme detergent and oxygen bleach. Use diluted vinegar for remaining stain and rinse with cool water.",
 	"sweat stain": "Use a prewash stain remover as directed. Wash item in hottest water recommended for the fabric using an enzyme detergent and oxygen bleach. Use diluted vinegar for remaining stain and rinse with cool water.",

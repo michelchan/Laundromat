@@ -30,3 +30,14 @@ StainIntent how to remove {Stain}
 StainIntent how to clean off {Stain}
 StainIntent how to wash off {Stain}
 StainIntent how to get rid of {Stain}
+StainIntent how do you get rid of {Stain}
+
+TipIntent give me a tip
+TipIntent tip please
+TipIntent give me a laundry tip
+TipIntent tell me something
+TipIntent give me something
+TipIntent tell me a tip
+TipIntent tell me a laundry tip
+TipIntent tell me a cleaning tip
+TipIntent give me a cleaning tip
